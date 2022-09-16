@@ -1,0 +1,52 @@
+.Table {
+    position: relative;
+    background-color: #191A20;
+    margin: 20px;
+    border-radius: 30px;
+    color: #fff;
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+
+.Days {
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-bottom: -10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr 1fr;
+}
+
+.time {
+    border-radius: 30px;
+    height: 22.5px;
+    width: 45px;
+    color: #191A20;
+    font-size: 1rem;
+    padding: 6px;
+    text-align: center;
+    background-color: #fff;
+    position: absolute;
+    top: -15px;
+    left: -40px;
+}
+
+
+.line {
+    height: 1px;
+    background-color: #fff;
+    width: 97%;
+    position: relative;
+    left: -0.5%;
+    margin: 0 auto -20px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+

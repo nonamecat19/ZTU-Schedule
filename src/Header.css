@@ -1,0 +1,14 @@
+.Header {
+    color: #fff;
+    background-color: #191A20;
+    position: relative;
+    padding: 50px;
+}
+
+.block {
+    /*outline: 1px solid red;*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform :translate(-50%, -50%);
+}
